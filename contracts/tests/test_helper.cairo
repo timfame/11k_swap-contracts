@@ -29,8 +29,11 @@ end
 func test_oz_sub_le{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     a : Uint256, b : Uint256
 ) -> (res : Uint256):
+
     let (res) = SafeUint256.sub_le(a, b)
-    return (res=res)
+
+    return (res = res)
+
 end
 
 @view
