@@ -41,9 +41,13 @@ end
 func constructor{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     factory : felt, pairClass : felt
 ):
+
     _factory.write(factory)
+
     _pairClass.write(pairClass)
+
     return ()
+
 end
 
 #
