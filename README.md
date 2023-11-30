@@ -1,6 +1,6 @@
 # 11Kswap Contracts for Cairo
 
-Introducing 11KSwap: An AMM protocol that advances with Ethereum<br/>
+Introducing 11KSwap: An AMM protocol that advances with Ethereum inspired by 10KSwap<br/>
 
 11KSwap(11kswap.com), being built on StarkNet, is an AMM protocol that advances with Ethereum. 11K aims to revolutionize the performance of the AMM protocol by leveraging the rollup feature, bringing lower fees, less friction, and ultimately better liquidity to the L2 world and advance DeFi adoption.
 
