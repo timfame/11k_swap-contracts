@@ -30,5 +30,5 @@ func test_quote{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_pt
 ) -> (amountB : Uint256):
     let (amountB) = l0kLibrary.quote(amountA, reserveA, reserveB)
 
-    return (amountB=amountB)
+    return (amountB = amountB)
 end
