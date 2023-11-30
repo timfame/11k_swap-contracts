@@ -29,7 +29,7 @@ The key technology is how to use Cairo to develop the "Rich Convex Function", an
 #### Clone this repo
 
 ```
-git clone git@github.com:0x60018/10k_swap-contracts.git
+git clone git@github.com:0x60018/11k_swap-contracts.git
 cd 10k_swap-contracts
 ```
 
