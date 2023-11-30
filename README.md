@@ -30,7 +30,7 @@ The key technology is how to use Cairo to develop the "Rich Convex Function", an
 
 ```
 git clone git@github.com:0x60018/11k_swap-contracts.git
-cd 10k_swap-contracts
+cd 11k_swap-contracts
 ```
 
 #### Install dependencies
