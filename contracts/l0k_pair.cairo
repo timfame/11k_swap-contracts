@@ -32,6 +32,7 @@ from warplib.maths.int_conversions import warp_int256_to_int112, warp_int128_to_
 
 from libraries.l0k_library import min_uint256
 from libraries.uq112x112 import Q112, encode, uqdiv
+
 from interfaces.Il0kFactory import Il0kFactory
 
 #
@@ -118,8 +119,11 @@ end
 func decreaseAllowance{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     spender : felt, subtracted_value : Uint256
 ) -> (success : felt):
+
     ERC20.decrease_allowance(spender, subtracted_value)
+
     return (TRUE)
+
 end
 
 #
